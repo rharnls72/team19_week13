@@ -18,14 +18,7 @@ public abstract class AbstractCollection {
 					add(l.get(i));
 				}
 			}
-		} else if (c instanceof Map) {
-			Map m = (Map)c;
-			for (int i=0; i<m.size(); i++) 
-				add(m.keys[i], m.values[i]);			
-		}
-	}
-	
-	public void add(Object key, Object value) {
+		} 
 	}
 
 	public abstract boolean isEmpty();
